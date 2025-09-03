@@ -8,20 +8,22 @@
 .navLogo{
     height: 100%;
     width: 15%;
-    background-color: blanchedalmond;
+    /* background-color: blanchedalmond; */
     display: flex;
     align-items: center;
     gap: 10px;
 }
-
+.navLogo h3{
+    color: white;
+}
 .navLogo img{
-    width: 70px;
+    width: 65px;
     height: 100%;
 }
 
 .navLinks{
     width: 40%;
-    background-color: aqua;
+    /* background-color: aqua; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,12 +31,14 @@
 
 .navLinks a{
     text-decoration: none;
+    color: white;
+    font-size: 16px;
 }
 
 .navBtn{
     width: 20%;
     height: 100%;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     display: flex;
     align-items: center;
     justify-content: space-evenly;

@@ -8,7 +8,7 @@ const Navbar = () => {
 
         <div className='navLogo'>
             <img src={logo} alt="" />
-            <p>SupaNote</p>
+            <h3>SupaNote</h3>
         </div>
             
 
