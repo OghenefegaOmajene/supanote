@@ -1,6 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 import logo from '../../assets/logo.png'
+import Button from '../Button'
 
 const Navbar = () => {
   return (
@@ -23,7 +24,7 @@ const Navbar = () => {
         <div className='navBtn'>
             
             <button>Log In</button>
-            <button>Sign up</button>
+            <Button title="Sign Up"/>
         </div>
 
     </div>
