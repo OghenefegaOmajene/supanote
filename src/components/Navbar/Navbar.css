@@ -44,5 +44,15 @@
     justify-content: space-evenly;
 }
 
+.navBtn button{
+    border-radius: 8px;
+    padding: 10px 8px;
+    width: 94px;
+    border: 1px solid rgba(111, 24, 132, 0.07);
+    background: transparent;
+    color: white;
+    backdrop-filter: blur(20px);
+    background: linear-gradient(172deg, rgba(111, 24, 132, 1) 0%, rgba(174, 93, 194, 1) 100%);
+}
 
 
