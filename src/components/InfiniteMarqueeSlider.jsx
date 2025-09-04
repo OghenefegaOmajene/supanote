@@ -1,19 +1,39 @@
 import React, { useState } from 'react';
+import framer from '../assets/images/framer.png'
+import notion from '../assets/images/notion.png'
+import slack from '../assets/images/slack.png'
+import zoom from '../assets/images/zoom.png'
+import paypal from '../assets/images/paypal.png'
+import zapier from '../assets/images/zapier.png'
+import stripe from '../assets/images/stripe.png'
+import googleCloud from '../assets/images/googleCloud.png'
+import webflow from '../assets/images/webflow.png'
 
 const InfiniteMarqueeSlider = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   // Sample images - replace with your own
-  const images = [
-    'https://picsum.photos/300/200?random=1',
-    'https://picsum.photos/300/200?random=2',
-    'https://picsum.photos/300/200?random=3',
-    'https://picsum.photos/300/200?random=4',
-    'https://picsum.photos/300/200?random=5',
-    'https://picsum.photos/300/200?random=6',
-    'https://picsum.photos/300/200?random=7',
-    'https://picsum.photos/300/200?random=8',
+    const images = [
+    framer,
+    notion,
+    slack,
+    zoom,
+    paypal,
+    zapier,
+    stripe,
+    googleCloud,
+    webflow,
   ];
+//   const images = [
+//     'https://picsum.photos/300/200?random=1',
+//     'https://picsum.photos/300/200?random=2',
+//     'https://picsum.photos/300/200?random=3',
+//     'https://picsum.photos/300/200?random=4',
+//     'https://picsum.photos/300/200?random=5',
+//     'https://picsum.photos/300/200?random=6',
+//     'https://picsum.photos/300/200?random=7',
+//     'https://picsum.photos/300/200?random=8',
+//   ];
 
   const handleMouseEnter = (index) => {
     setHoveredIndex(index);
@@ -26,7 +46,7 @@ const InfiniteMarqueeSlider = () => {
   const styles = {
     container: {
       width: '100%',
-      height: '300px',
+      height: '50px',
       overflow: 'hidden',
       position: 'relative',
       backgroundColor: '#f0f0f0',
@@ -76,17 +96,17 @@ const InfiniteMarqueeSlider = () => {
           
           .marquee-container {
             width: 100%;
-            height: 300px;
+            height: 90px;
             overflow: hidden;
             position: relative;
-            background-color: #f0f0f0;
+            background-color: transparent;
             display: flex;
             align-items: center;
           }
           
           .marquee-wrapper {
             display: flex;
-            gap: 20px;
+            gap: 50px;
             animation: marquee 20s linear infinite;
           }
           
@@ -95,17 +115,19 @@ const InfiniteMarqueeSlider = () => {
           }
           
           .image-container {
+            width: fit-content;
             flex-shrink: 0;
             transition: all 0.3s ease;
             cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
           }
           
           .marquee-image {
-            width: 300px;
-            height: 200px;
-            object-fit: cover;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
             transition: all 0.3s ease;
           }
           
@@ -149,10 +171,6 @@ const InfiniteMarqueeSlider = () => {
         </div>
       </div>
       
-      <div style={{ padding: '20px', textAlign: 'center' }}>
-        <h2>Infinite Marquee Slider</h2>
-        <p>Hover over any image to pause the animation and see the zoom effect!</p>
-      </div>
     </div>
   );
 };

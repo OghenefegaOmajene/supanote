@@ -3,6 +3,7 @@ import Button from '../Button'
 import './Home.css'
 import { ChevronRight } from "lucide-react";
 import heroImage from '../../assets/images/heroImage.png'
+import InfiniteMarqueeSlider from '../InfiniteMarqueeSlider';
 
 const Home = () => {
   return (
@@ -15,7 +16,7 @@ const Home = () => {
                 Icon={ChevronRight} 
             />
         </div>
-        
+        <InfiniteMarqueeSlider/>
         <img src={heroImage} alt="" />
     </div>
   )
