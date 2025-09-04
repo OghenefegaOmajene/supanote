@@ -3,7 +3,9 @@ import './BentoGrid.css'
 import Capsule from '../Capsule/Capsule'
 import { BsStars } from "react-icons/bs";
 import bentoImg1 from '../../assets/images/bentoImg1.png'
-import bentoSearch from '../../assets/images/bentoImg4.png'
+import bentoImg4 from '../../assets/images/bentoImg4.png'
+import bentoImg5 from '../../assets/images/bentoImg5.png'
+import connection from '../../assets/images/connection.png'
 
 const BentoGrid = () => {
   return (
@@ -24,15 +26,25 @@ const BentoGrid = () => {
                 <img src={bentoImg1} alt="" />
             </div>
 
-            <div className="div2" id='bentoCard'></div>
-            <div className="div3" id='bentoCard'></div>
+            <div className="div2" id='bentoCard'>
+
+            </div>
+
+            <div className="div3" id='bentoCard'>
+                <img src={connection} alt="" />
+            </div>
 
             <div className="bento4" id='bentoCard'>
-                <img src={bentoSearch} alt="" />
-                <p>Goal-Oriented Task Planning</p>
-                <p>Set your startup goals, and let the AI break them down into milestones and daily actions.</p>
+                <img src={bentoImg4} alt="" />
+                <p className='bento4Txt1'>Goal-Oriented Task Planning</p>
+                <p className='bento4Txt2'>Set your startup goals, and let the AI break them down into milestones and daily actions.</p>
             </div>
-            <div className="div5" id='bentoCard'></div>
+
+            <div className="bento5" id='bentoCard'>
+                <img src={bentoImg5} alt="" />
+                <p className='bento4Txt1'>Proactive Reminders</p>
+                <p className='bento4Tx2'>Smart reminders surface when you’re likely to forget, and even suggest when to follow up.</p>
+            </div>
         </div>
     </div>
   )

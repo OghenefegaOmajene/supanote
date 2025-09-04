@@ -52,13 +52,17 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: aquamarine;
-    padding-left: 30px;
+    border-radius: 12px;
+    border: 1px solid rgb(255, 255, 255, 0.2);
 }
 .bento1Txt{
     color: rgba(255, 255, 255, 1);
     width: 50%;
-    background-color: #291800;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
 }
 #primaryBentoTxt{
     font-size: 40px;
@@ -79,8 +83,13 @@
     background-color: rgb(227, 255, 127);
 }
 
-.bento4 { 
+.bento4{
     grid-area: 3 / 1 / 4 / 2; 
+}
+.bento5 { 
+    grid-area: 3 / 2 / 4 / 3; 
+}
+.bento4, .bento5 { 
     background-color: rgb(127, 255, 146);
     display: flex;
     flex-direction: column;
@@ -88,12 +97,22 @@
     gap: 10px;
     align-items: center;
     text-align: center;
+    justify-content: center;
 }
-.bento4 p{
+.bento4 p, .bento5 p{
     color: rgba(255, 255, 255, 1);
 }
-
-.div5 { 
-    grid-area: 3 / 2 / 4 / 3; 
-    background-color: rgb(197, 127, 255);
+.bento4Txt1{
+    font-size: 32px;
+}
+.bento4Txt2{
+    font-size: 16px;
+}
+.bento4 img{
+    width: 124px;
+    height: 110px;
+} 
+.bento5 img{
+    width: 130px;
+    height: 137px;
 }
