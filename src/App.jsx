@@ -9,8 +9,11 @@ function App() {
   return (
     <>
       <Navbar/>
-      <Home/>
-      <BentoGrid/>
+      <div className='section'>
+        <Home/>
+        <BentoGrid/>
+      </div>
+      
     </>
   )
 }
