@@ -36,7 +36,7 @@ const styles = `
   inset: 0;
   border-radius: 10px;
   padding: 1px; /* border thickness */
-  background: linear-gradient(90deg, #a855f7, #6366f1, #ec4899);
+  background: linear-gradient(90deg, #ab3cfa, #a93dee, #fb4bc8);
   -webkit-mask: 
     linear-gradient(#fff 0 0) content-box, 
     linear-gradient(#fff 0 0);
