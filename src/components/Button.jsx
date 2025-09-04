@@ -28,6 +28,7 @@ const styles = `
   position: relative;
   border: 0;
   transition: all 0.3s ease;
+  box-shadow: 0 0 12px rgba(168, 85, 247);
 }
 
 .gradient-btn::before {

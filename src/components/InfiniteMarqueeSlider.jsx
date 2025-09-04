@@ -96,7 +96,7 @@ const InfiniteMarqueeSlider = () => {
           
           .marquee-container {
             width: 100%;
-            height: 90px;
+            height: 50px;
             overflow: hidden;
             position: relative;
             background-color: transparent;

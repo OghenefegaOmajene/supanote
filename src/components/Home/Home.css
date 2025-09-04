@@ -1,17 +1,81 @@
 .home{
     width: 100%;
-    height: 1000px;
     background-color: transparent;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 24px;
-    margin-top: 100px;
+    z-index: 1;
+}
+.gridBg{
+  padding-top: 150px;
+  margin: 0;
+  background-color: rgb(8, 1, 14);
+  /* background-color: black; */
+  color: black;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  background-image: repeating-linear-gradient(
+    to right, transparent 0 49px, #eee1 49px 50px
+  ),
+  repeating-linear-gradient(
+    to bottom, transparent 0 49px, #eee1 49px 50px
+  );
+   &::before{
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    content: '';
+    background-image: linear-gradient(
+      to right, #140013, #140029
+    );
+    z-index: -1;
+    top: -200px;
+    left: calc(50% - 200px);
+    border-radius: 50% 50% 0 0;
+    pointer-events: none;
+    filter: blur(250px)
+  }
+}
+.heroImgBox{
+  margin: 0;
+  background-color: rgb(8, 1, 14);
+  /* background-color: black; */
+  color: black;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  background-image: repeating-linear-gradient(
+    to right, transparent 0 49px, #eee1 49px 50px
+  ),
+  repeating-linear-gradient(
+    to bottom, transparent 0 49px, #eee1 49px 50px
+  );
+   &::before{
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    content: '';
+    background-image: linear-gradient(
+      to right, #140013, #140029
+    );
+    z-index: -1;
+    top: -200px;
+    left: calc(50% - 200px);
+    border-radius: 50% 50% 0 0;
+    pointer-events: none;
+    filter: blur(250px)
+  }
 }
 .heroTxtBox{
     width: 70%;
-    height: 400px;
-    /* border: 1px solid white; */
+    height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,3 +90,38 @@
     font-size: 20px;
     color: white;
 }
+
+.stats{
+    width: 100%;
+    height: 265px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.stat{
+    height: 100%;
+    width: 20%;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 29px;
+    /* background-color: antiquewhite; */
+}
+.statTxt{
+    color: rgba(141, 141, 141, 1);
+}
+.statHead{
+    height: 50%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.statHeadTxt{
+    font-size: 64px;
+    color: rgba(221, 221, 221, 1);
+}
+/* .heroImg{
+    border: 1px solid white;
+} */
