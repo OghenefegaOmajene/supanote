@@ -6,6 +6,8 @@ import bentoImg1 from '../../assets/images/bentoImg1.png'
 import bentoImg4 from '../../assets/images/bentoImg4.png'
 import bentoImg5 from '../../assets/images/bentoImg5.png'
 import connection from '../../assets/images/connection.png'
+import summary1 from '../../assets/images/summary1.png'
+import summary2 from '../../assets/images/summary2.png'
 
 const BentoGrid = () => {
   return (
@@ -26,11 +28,20 @@ const BentoGrid = () => {
                 <img src={bentoImg1} alt="" />
             </div>
 
-            <div className="div2" id='bentoCard'>
-
+            <div className="bento2" id='bentoCard'>
+                <div className="bento3Txt">
+                    <p className='bento4Txt1'>Daily Smart Summaries</p>
+                    <p className='bento4Txt2'>Wake up to a smart summary of what’s on your plate — tasks, priorities, and helpful suggestions.</p>
+                </div>
+                <img src={summary1} alt="" className='summary1'/>
+                <img src={summary2} alt="" className='summary2'/>
             </div>
 
-            <div className="div3" id='bentoCard'>
+            <div className="bento3" id='bentoCard'>
+                <div className="bento3Txt">
+                    <p className='bento4Txt1'>Context-Aware Linking</p>
+                    <p className='bento4Txt2'>AI detects and links related notes and tasks across your workspace, keeping everything connected.</p>
+                </div>
                 <img src={connection} alt="" />
             </div>
 
@@ -43,7 +54,7 @@ const BentoGrid = () => {
             <div className="bento5" id='bentoCard'>
                 <img src={bentoImg5} alt="" />
                 <p className='bento4Txt1'>Proactive Reminders</p>
-                <p className='bento4Tx2'>Smart reminders surface when you’re likely to forget, and even suggest when to follow up.</p>
+                <p className='bento4Txt2'>Smart reminders surface when you’re likely to forget, and even suggest when to follow up.</p>
             </div>
         </div>
     </div>
