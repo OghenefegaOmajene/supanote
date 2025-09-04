@@ -23,22 +23,7 @@
   ),
   repeating-linear-gradient(
     to bottom, transparent 0 49px, #eee1 49px 50px
-  );
-   &::before{
-    position: fixed;
-    width: 400px;
-    height: 400px;
-    content: '';
-    background-image: linear-gradient(
-      to right, #140013, #140029
-    );
-    z-index: -1;
-    top: -200px;
-    left: calc(50% - 200px);
-    border-radius: 50% 50% 0 0;
-    pointer-events: none;
-    filter: blur(250px)
-  }
+  )
 }
 .heroImgBox{
   margin: 0;
