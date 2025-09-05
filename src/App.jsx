@@ -8,6 +8,7 @@ import Features from './sections/Features/Features'
 import HowItWorks from './sections/HowItWorks/HowItWorks'
 import Pricing from './sections/Pricing/Pricing'
 import Testimonials from './sections/Testimonials/Testimonials'
+import FAQs from './sections/FAQs/FAQs'
 
 function App() {
   
@@ -21,6 +22,7 @@ function App() {
         <HowItWorks/>
         <Pricing/>
         <Testimonials/>
+        <FAQs/>
         <Footer/>
       </div>
       

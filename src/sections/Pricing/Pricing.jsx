@@ -30,8 +30,9 @@ const Pricing = () => {
 
   return (
     <div className='pricing'>
-        <Capsule title="Pricing" Icon={LuTag } />
+        
         <div className='howitworksHead'>
+            <Capsule title="Pricing" Icon={LuTag } />
             <p className='howitworksHead1'>Start Smart. Scale Fast.</p>
             <p className='howitworksHead2'>Whether you're a solo founder or growing team, there's a plan to help you stay productive and focused.</p>
         </div>

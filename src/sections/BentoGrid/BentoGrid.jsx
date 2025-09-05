@@ -12,8 +12,9 @@ import summary2 from '../../assets/images/summary2.png'
 const BentoGrid = () => {
   return (
     <div className='bentoGrid'>
-        <Capsule title="Benefits" Icon={BsStars } />
+        
         <div className='bentoTxtBox'>
+            <Capsule title="Benefits" Icon={BsStars } />
             <p className='bentoTxt'>Everything You Need to Stay Organized <br />Without Lifting a Finger</p>
             <p className='bentoTxt2'>Built for the fast-paced life of startup founders, these AI-powered features eliminate <br /> busywork and help you focus on building.</p>
         </div>

@@ -5,14 +5,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    gap: 30px;
+    /* justify-content: center; */
 }
 
 
 .featuresHead{
     width: 70%;
     /* background-color: aquamarine; */
-    height: 12%;
+    height: 16%;
     display: flex;
     flex-direction: column;
     align-items: center;

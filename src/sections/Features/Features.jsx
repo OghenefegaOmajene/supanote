@@ -9,8 +9,9 @@ import feature3 from '../../assets/images/feature3.png'
 const Features = () => {
   return (
     <div className='features'>
-        <Capsule title="Features" Icon={BsStars } />
+
         <div className='featuresHead'>
+            <Capsule title="Features" Icon={BsStars } />
             <p className='featuresHead1'>You Focus on Building <br /> We Handle the Workflow.</p>
             <p className='featuresHead2'>Startup founders shouldn’t spend hours organizing. SupaNote does the heavy lifting, giving you clarity and momentum from day one.</p>
         </div>

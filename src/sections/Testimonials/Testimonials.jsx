@@ -13,8 +13,9 @@ import founder6 from '../../assets/images/founder6.png'
 const Testimonials = () => {
   return (
     <div className='testimonials'>
-        <Capsule title="Testimonials" Icon={FaRegStar } />
+        
         <div className='howitworksHead'>
+            <Capsule title="Testimonials" Icon={FaRegStar } />
             <p className='howitworksHead1'>What Founders Are Saying</p>
             <p className='howitworksHead2'>SupaNote is helping startup leaders stay focused, ship faster, and feel in control.</p>
         </div>

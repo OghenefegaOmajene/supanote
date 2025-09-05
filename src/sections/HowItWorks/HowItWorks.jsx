@@ -7,8 +7,8 @@ import { ImArrowRight } from "react-icons/im";
 const HowItWorks = () => {
   return (
     <div className='howitworks'>
-        <Capsule title="How It Works" Icon={IoSettingsOutline } />
         <div className='howitworksHead'>
+            <Capsule title="How It Works" Icon={IoSettingsOutline } />
             <p className='howitworksHead1'>It’s That Simple. Just Write, and Let AI  <br />Do the Rest.</p>
             <p className='howitworksHead2'>SupaNote fits into your workflow — not the other way around. Here’s how to get started:</p>
         </div>

@@ -42,7 +42,7 @@
   repeating-linear-gradient(
     to bottom, transparent 0 49px, #eee1 49px 50px
   );
-   &::before{
+   /* &::before{
     position: fixed;
     width: 400px;
     height: 400px;
@@ -56,7 +56,7 @@
     border-radius: 50% 50% 0 0;
     pointer-events: none;
     filter: blur(250px)
-  }
+  } */
 }
 .heroTxtBox{
     width: 70%;
