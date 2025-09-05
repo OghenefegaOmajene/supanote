@@ -1,7 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 import logo from '../../assets/images/logo.png'
-import Button from '../Button'
+import Button from '../Button/Button'
 
 const Navbar = () => {
   return (
@@ -24,7 +24,7 @@ const Navbar = () => {
         <div className='navBtn'>
             
             <button className='navBtnBtn'>Log In</button>
-            <Button title="Sign Up"/>
+            <Button width="94px" height="38px" title="Sign Up"/>
         </div>
 
     </div>

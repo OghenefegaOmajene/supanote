@@ -3,7 +3,7 @@ import './FAQs.css'
 import { ChevronRight } from "lucide-react";
 import { AiOutlineQuestionCircle } from "react-icons/ai";
 import cta from '../../assets/images/cta.png'
-import Button from '../../components/Button';
+import Button from '../../components/Button/Button';
 import Capsule from '../../components/Capsule/Capsule';
 
 const FAQs = () => {
@@ -75,10 +75,16 @@ const FAQs = () => {
               <p>Stop managing chaos. Start executing with clarity.</p>
             </div>
 
-            <Button 
+            {/* <Button 
               className="ctaBtn"
               title="Get Started" 
               Icon={ChevronRight} 
+            /> */}
+            <Button 
+              width="250px"
+              height="55px"
+              title="Get Started" 
+              Icon={ChevronRight}
             />
           </div>
 
