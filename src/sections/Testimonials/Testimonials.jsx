@@ -4,6 +4,7 @@ import Capsule from '../../components/Capsule/Capsule'
 import { FaRegStar } from "react-icons/fa6";
 import TestimonialCard from '../../components/TestimonialCard/TestimonialCard';
 import founder1 from '../../assets/images/founder1.png'
+import founder2 from '../../assets/images/founder2.png'
 
 const Testimonials = () => {
   return (
@@ -16,16 +17,41 @@ const Testimonials = () => {
 
         <div className="testimonialGrid">
             <TestimonialCard
-                className="div1"
+                className="testimonial1"
                 testimonial="SupaNote is the smartest tool I’ve used all year. I just type in my messy thoughts, and it somehow turns them into a Monday plan. Magic."
                 name="Lauren K., Fintech Founder"
                 founderImg={founder1}
             />
-            <div className="div2"></div>
-            <div className="div3"></div>
-            <div className="div4"></div>
-            <div className="div5"></div>
-            <div className="div6"></div>
+            <TestimonialCard
+                className="testimonial2"
+                testimonial="I replaced 3 apps with this one. No joke — it handles my tasks, notes, even reminds me of things I forgot I wrote."
+                name="Brian C., Healthtech CEO"
+                founderImg={founder2}
+            />
+            <TestimonialCard
+                className="testimonial3"
+                testimonial="SupaNote is the smartest tool I’ve used all year. I just type in my messy thoughts, and it somehow turns them into a Monday plan. Magic."
+                name="The Architect,  Founder"
+                founderImg={founder1}
+            />
+            <TestimonialCard
+                className="testimonial4"
+                testimonial="SupaNote is the smartest tool I’ve used all year. I just type in my messy thoughts, and it somehow turns them into a Monday plan. Magic."
+                name="Lauren K., Fintech Founder"
+                founderImg={founder1}
+            />
+            <TestimonialCard
+                className="testimonial5"
+                testimonial="SupaNote is the smartest tool I’ve used all year. I just type in my messy thoughts, and it somehow turns them into a Monday plan. Magic."
+                name="Lauren K., Fintech Founder"
+                founderImg={founder1}
+            />
+            <TestimonialCard
+                className="testimonial6"
+                testimonial="SupaNote is the smartest tool I’ve used all year. I just type in my messy thoughts, and it somehow turns them into a Monday plan. Magic."
+                name="Lauren K., Fintech Founder"
+                founderImg={founder1}
+            />
         </div>
     </div>
   )
