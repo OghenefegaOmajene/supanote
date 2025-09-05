@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from '../../components/Button'
+import Button from '../../components/Button/Button'
 import './Home.css'
 import { ChevronRight } from "lucide-react";
 import heroImage from '../../assets/images/heroImage.png'
@@ -13,8 +13,10 @@ const Home = () => {
                 <p className='heroTxt1'>Your Notes and Tasks Are Messy... <br /> Our AI Makes Them Work for You</p>
                 <p className='heroTxt2'>Organize your thoughts, track your to-dos, and get smart suggestions in one unified workspace designed for start-up founders.</p>
                 <Button 
+                    width="250px"
+                    height="55px"
                     title="Get Started" 
-                    Icon={ChevronRight} 
+                    Icon={ChevronRight}
                 />
             </div>
             <InfiniteMarqueeSlider/>

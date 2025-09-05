@@ -24,7 +24,7 @@ const Navbar = () => {
         <div className='navBtn'>
             
             <button className='navBtnBtn'>Log In</button>
-            <Button width="94px" height="38px" title="Sign Up"/>
+            <Button width="150px" height="38px" title="Sign Up"/>
         </div>
 
     </div>
