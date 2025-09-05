@@ -7,6 +7,8 @@
  height: 100%;
  border-radius: 24px;
  width: 30%;
+ position: relative;
+ /* z-index: 1; */
  border: 1px solid rgba(36, 36, 36, 1);
 }
 
@@ -22,8 +24,11 @@
 
 .popularBadge{
     position: absolute;
-    top: 15px;
-    right: 20px;
+    top: 10px;
+    right: 30px;
+    z-index: 100;
+    /* top: 0px; */
+    /* right: -100px; */
     background-color: rgba(32, 17, 34, 1);
     color: rgba(151, 51, 198, 1);
     padding: 8px 12px;
