@@ -10,3 +10,40 @@
     width: 80%;
     border: 1px solid white;
 }
+
+.popularBadge{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    background-color: rgba(32, 17, 34, 1);
+    color: rgba(151, 51, 198, 1);
+    padding: 8px 12px;
+    border-radius: 32px;
+    font-size: 14px;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(64, 35, 100, 1);
+}
+.pricingCardTitle{
+    font-size: 48px;
+    color: rgba(251, 251, 251, 1);
+}
+.pricingCardSubtitle{
+    font-size: 16px;
+    color: rgba(155, 156, 161, 1);
+}
+.pricingCardPrice{
+    font-size: 40px;
+    color: rgba(251, 251, 251, 1);
+}
+.pricingCardPriceSpan{
+    font-size: 16px;
+    color: rgba(224, 224, 224, 1);
+}
+
+.check{
+    font-size: 16px;
+    color: rgba(251, 251, 251, 1);
+}

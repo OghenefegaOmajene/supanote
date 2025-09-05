@@ -1,5 +1,7 @@
 import React from 'react'
 import './PricingCard.css'
+import { PiStarFour } from "react-icons/pi";
+import { IoMdCheckmark } from "react-icons/io";
 
 const PricingCard = ({
     title, 
@@ -18,23 +20,23 @@ const PricingCard = ({
   return (
     <div className='pricingCard'>
       {isPopular && (
-        <div style={popularBadgeStyle}>
-          ⭐ Popular
+        <div className='popularBadge'>
+          <PiStarFour/> Popular
         </div>
       )}
       
-      <h2 style={titleStyle}>{title}</h2>
-      <p style={subtitleStyle}>{subtitle}</p>
+      <h2 className='pricingCardTitle'>{title}</h2>
+      <p className='pricingCardSubtitle'>{subtitle}</p>
       
-      <div style={priceStyle}>
+      <div className='pricingCardPrice'>
         {price}
-        {priceSubtext && <span style={priceSubtextStyle}>{priceSubtext}</span>}
+        {priceSubtext && <span className='pricingCardPriceSpan'>{priceSubtext}</span>}
       </div>
       
       <ul style={featuresListStyle}>
         {features.map((feature, index) => (
           <li key={index} style={featureItemStyle}>
-            <span style={checkmarkStyle}>✓</span>
+            <IoMdCheckmark className='check'/>
             {feature}
           </li>
         ))}
