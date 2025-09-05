@@ -1,5 +1,5 @@
 .capsule{
-    width: 120px;
+    width: fit-content;
     height: 38px;
     display: flex;
     align-items: center;
@@ -15,4 +15,7 @@
 .capsule .icon {
   font-size: 24px;  /* controls the icon size */
   
+}
+.capsule span{
+    font-size: 16px;
 }
