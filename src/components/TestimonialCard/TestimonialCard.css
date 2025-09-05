@@ -1,0 +1,30 @@
+.testimonialCard{
+    border-radius: 20px;
+    background-color: rgba(22, 22, 22, 1);
+}
+.reviewStars {
+  display: flex;
+  gap: 4px;
+}
+.testimonialText{
+    color: rgba(255, 255, 255, 1);
+    font-size: 24px;
+    line-height: 42px;
+}
+.starIcon {
+  font-size: 21px;   /* size of the star */
+  color: rgba(255, 232, 26, 1);       /* star color */
+}
+
+
+.founderInfo{
+    width: 100%;
+}
+
+.founderInfo img{
+    width: 54px;
+    height: 54px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(0, 0, 0, 1);
+    border-radius: 50%;
+}
