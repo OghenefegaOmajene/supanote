@@ -7,3 +7,47 @@
     align-items: center;
     gap: 30px;
 }
+
+.cta{
+    width: 90%;
+    height: 350px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(15, 15, 15, 1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 40px;
+}
+.ctaBox{
+    width: 60%;
+    height: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.ctaTxt{
+    height: 200px;
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+.ctaTxt h3{
+    font-size: 45px;
+    color: rgba(255, 255, 255, 1);
+}
+.ctaTxt p{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.ctaImg{
+    width: 30%;
+    height: 90%;
+}
+
+.ctaBtn{
+    width: 60% !important;
+}

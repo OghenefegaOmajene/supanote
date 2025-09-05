@@ -1,8 +1,8 @@
 import React from "react";
 
-const Button = ({ title, Icon, onClick }) => {
+const Button = ({ title, Icon }) => {
   return (
-    <button onClick={onClick} className="gradient-btn">
+    <button className="gradient-btn">
       <span>{title}</span>
       {Icon && <Icon className="icon" />}
     </button>

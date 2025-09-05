@@ -24,12 +24,13 @@ const FAQs = () => {
             </div>
 
             <Button 
+              className="ctaBtn"
               title="Get Started" 
               Icon={ChevronRight} 
             />
           </div>
-          
-          <img src={cta} alt="" />
+
+          <img src={cta} alt="" className='ctaImg'/>
         </div>
     </div>
   )
