@@ -2,13 +2,22 @@
  background-color: rgba(22, 22, 22, 1);
  display: flex;
  flex-direction: column;
+ align-items: center;
+ justify-content: space-evenly;
+ height: 100%;
+ border-radius: 24px;
+ width: 30%;
+ border: 1px solid rgba(36, 36, 36, 1);
 }
+
 .pricingContents{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
     gap: 11px;
     width: 80%;
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 
 .popularBadge{
@@ -46,4 +55,27 @@
 .check{
     font-size: 16px;
     color: rgba(251, 251, 251, 1);
+}
+.pricingCard ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+}
+.pricingCard ul li{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: rgba(251, 251, 251, 1);
+}
+
+.pricingCardBtn{
+    width: 300px;
+    padding: 12px 24px;
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease;
 }

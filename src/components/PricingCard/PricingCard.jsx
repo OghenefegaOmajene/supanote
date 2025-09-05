@@ -10,11 +10,9 @@ const PricingCard = ({
     priceSubtext,
     features,
     buttonText,
-    buttonColor = '#ffffff',
-    buttonTextColor = '#000000',
-    textColor = '#ffffff',
-    isPopular = false,
-    onButtonClick 
+    buttonColor,
+    buttonTextColor,
+    isPopular = false, 
 }) => {
 
   return (
@@ -25,26 +23,31 @@ const PricingCard = ({
         </div>
       )}
       
-      <h2 className='pricingCardTitle'>{title}</h2>
-      <p className='pricingCardSubtitle'>{subtitle}</p>
-      
-      <div className='pricingCardPrice'>
-        {price}
-        {priceSubtext && <span className='pricingCardPriceSpan'>{priceSubtext}</span>}
+      <div className="pricingContents">
+        <h2 className='pricingCardTitle'>{title}</h2>
+        <p className='pricingCardSubtitle'>{subtitle}</p>
+        
+        <div className='pricingCardPrice'>
+            {price}
+            {priceSubtext && <span className='pricingCardPriceSpan'>{priceSubtext}</span>}
+        </div>
+        
+        <ul>
+            {features.map((feature, index) => (
+            <li key={index}>
+                <IoMdCheckmark className='check'/>
+                {feature}
+            </li>
+            ))}
+        </ul>
       </div>
       
-      <ul style={featuresListStyle}>
-        {features.map((feature, index) => (
-          <li key={index} style={featureItemStyle}>
-            <IoMdCheckmark className='check'/>
-            {feature}
-          </li>
-        ))}
-      </ul>
-      
       <button 
-        style={buttonStyle}
-        onClick={onButtonClick}
+        style={{
+            color: buttonTextColor,
+            backgroundColor: buttonColor
+        }}
+        className='pricingCardBtn'
         onMouseEnter={(e) => {
           e.target.style.transform = 'translateY(-2px)';
           e.target.style.boxShadow = '0 4px 8px rgba(0,0,0,0.3)';

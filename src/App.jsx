@@ -20,7 +20,6 @@ function App() {
         <HowItWorks/>
         <Pricing/>
         <Footer/>
-
       </div>
       
     </>

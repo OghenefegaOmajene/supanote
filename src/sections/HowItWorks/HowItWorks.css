@@ -1,11 +1,11 @@
 .howitworks{
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     /* border: 1px solid white; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: start;
 }
 
 .howitworksHead{
@@ -28,7 +28,7 @@
 }
 .workflow{
     width: 90%;
-    height: 60%;
+    height: 50%;
     gap: 32px;
     /* border: 1px solid white; */
     display: flex;
