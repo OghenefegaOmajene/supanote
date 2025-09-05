@@ -7,6 +7,7 @@ import Footer from './components/Footer/Footer'
 import Features from './sections/Features/Features'
 import HowItWorks from './sections/HowItWorks/HowItWorks'
 import Pricing from './sections/Pricing/Pricing'
+import Testimonials from './sections/Testimonials/Testimonials'
 
 function App() {
   
@@ -19,6 +20,7 @@ function App() {
         <Features/>
         <HowItWorks/>
         <Pricing/>
+        <Testimonials/>
         <Footer/>
       </div>
       
