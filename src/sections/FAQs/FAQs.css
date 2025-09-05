@@ -1,7 +1,7 @@
 .faqs{
     width: 100%;
-    height: 230vh;
-    border: 1px solid white;
+    height: 180vh;
+    /* border: 1px solid white; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,7 +9,7 @@
 }
 
 .cta{
-    width: 90%;
+    width: 80%;
     height: 350px;
     border: 1px solid rgba(255, 255, 255, 0.2);
     background-color: rgba(15, 15, 15, 1);
@@ -57,16 +57,17 @@
 .faq-container {
   max-width: 800px;
   margin: 0 auto;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
 .faq-item {
-  background-color: #1a1a1a;
+  background-color: rgba(22, 22, 22, 1);
   border-radius: 12px;
   margin-bottom: 8px;
   overflow: hidden;
 }
-
+.faqQuestion{
+    font-size: 20px;
+}
 .faq-button {
   width: 100%;
   padding: 24px 30px;
