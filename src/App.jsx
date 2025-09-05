@@ -6,6 +6,7 @@ import './App.css'
 import Footer from './components/Footer/Footer'
 import Features from './sections/Features/Features'
 import HowItWorks from './sections/HowItWorks/HowItWorks'
+import Pricing from './sections/Pricing/Pricing'
 
 function App() {
   
@@ -17,7 +18,9 @@ function App() {
         <BentoGrid/>
         <Features/>
         <HowItWorks/>
+        <Pricing/>
         <Footer/>
+
       </div>
       
     </>
