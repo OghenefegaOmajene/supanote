@@ -9,19 +9,23 @@ const TestimonialCard = ({testimonial, name, founderImg}) => {
         <p className='testimonialText'>{testimonial}</p>
 
         <div className="founderInfo">
-            <img src={founderImg} alt="" />
-
+            
             <div className="profile">
-                <p>{name}</p>
+                <img src={founderImg} alt="" />
 
-                <div className="reviewStars">
-                    {[...Array(5)].map((_, index) => (
-                        <IoIosStar key={index} className="starIcon" />
-                    ))}
-                </div>
+                <section>
+                    <p className='founderName'>{name}</p>
+
+                    <div className="reviewStars">
+                        {[...Array(5)].map((_, index) => (
+                            <IoIosStar key={index} className="starIcon" />
+                        ))}
+                    </div>
+                </section>
+                
             </div>  
 
-            <BiSolidQuoteRight/>
+            <BiSolidQuoteRight className='quote'/>
             
         </div>
     </div>

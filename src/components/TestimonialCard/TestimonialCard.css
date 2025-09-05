@@ -1,6 +1,10 @@
 .testimonialCard{
     border-radius: 20px;
     background-color: rgba(22, 22, 22, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .reviewStars {
   display: flex;
@@ -8,8 +12,10 @@
 }
 .testimonialText{
     color: rgba(255, 255, 255, 1);
-    font-size: 24px;
-    line-height: 42px;
+    font-size: 22px;
+    line-height: 35px;
+    padding-left: 20px;
+    padding-right: 10px;
 }
 .starIcon {
   font-size: 21px;   /* size of the star */
@@ -19,6 +25,10 @@
 
 .founderInfo{
     width: 100%;
+    display: flex;
+    /* background-color: wheat; */
+    align-items: center;
+    justify-content: space-around;
 }
 
 .founderInfo img{
@@ -27,4 +37,26 @@
     /* background-color: rgba(255, 255, 255, 1); */
     /* border: 1px solid rgba(0, 0, 0, 1); */
     border-radius: 50%;
+}
+
+.quote{
+    font-size: 55px;
+    color: rgb(66, 66, 66);
+}
+.profile{
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    /* border: 1px solid rgb(21, 0, 0); */
+}
+.profile section{
+    display: flex;
+    flex-direction: column;
+
+}
+.founderName{
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
 }
