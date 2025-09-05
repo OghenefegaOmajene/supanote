@@ -1,6 +1,6 @@
 import React from 'react'
 import './BentoGrid.css'
-import Capsule from '../Capsule/Capsule'
+import Capsule from '../../components/Capsule/Capsule'
 import { BsStars } from "react-icons/bs";
 import bentoImg1 from '../../assets/images/bentoImg1.png'
 import bentoImg4 from '../../assets/images/bentoImg4.png'

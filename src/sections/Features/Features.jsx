@@ -1,6 +1,6 @@
 import React from 'react'
 import './Features.css'
-import Capsule from '../Capsule/Capsule'
+import Capsule from '../../components/Capsule/Capsule'
 import { BsStars } from "react-icons/bs";
 import feature1 from '../../assets/images/feature1.png'
 import feature2 from '../../assets/images/feature2.png'

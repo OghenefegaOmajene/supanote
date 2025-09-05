@@ -1,9 +1,9 @@
 import React from 'react'
-import Button from '../Button'
+import Button from '../../components/Button'
 import './Home.css'
 import { ChevronRight } from "lucide-react";
 import heroImage from '../../assets/images/heroImage.png'
-import InfiniteMarqueeSlider from '../InfiniteMarqueeSlider';
+import InfiniteMarqueeSlider from '../../components/InfiniteMarqueeSlider';
 
 const Home = () => {
   return (
