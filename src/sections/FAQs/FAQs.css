@@ -51,3 +51,80 @@
 .ctaBtn{
     width: 60% !important;
 }
+
+
+/* FAQAccordion.css */
+.faq-container {
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.faq-item {
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  margin-bottom: 8px;
+  overflow: hidden;
+}
+
+.faq-button {
+  width: 100%;
+  padding: 24px 30px;
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.2s ease;
+  outline: none;
+}
+
+.faq-button:hover {
+  background-color: #252525;
+}
+
+.faq-arrow {
+  font-size: 20px;
+  color: #888;
+  transition: transform 0.3s ease, color 0.2s ease;
+  font-weight: 300;
+}
+
+.faq-arrow.open {
+  transform: rotate(90deg);
+  color: #ffffff;
+}
+
+.faq-content {
+  background-color: #0f0f0f;
+  padding: 0 30px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  max-height: 0;
+}
+
+.faq-content.open {
+  max-height: 200px;
+}
+
+.faq-content-text {
+  color: #cccccc;
+  font-size: 14px;
+  line-height: 1.6;
+  padding: 20px 0 24px 0;
+  margin: 0;
+}
+
+.app-container {
+  background-color: #0a0a0a;
+  min-height: 100vh;
+  padding: 40px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
