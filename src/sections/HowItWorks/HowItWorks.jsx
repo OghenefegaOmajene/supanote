@@ -15,19 +15,25 @@ const HowItWorks = () => {
 
         <div className="workflow">
             <div className="workflowCard">
-
+                <h1>1</h1>
+                <h3>Capture Your Thoughts</h3>
+                <p>Drop in notes, voice memos, or meeting summaries — in plain text or however you think best.</p>
             </div>
 
             <ImArrowRight className='workflowArrow'/>
 
             <div className="workflowCard">
-
+                <h1>2</h1>
+                <h3>Let AI Organize & Prioritize</h3>
+                <p>SupaNote automatically identifies tasks, groups them by context, and gives you a smart daily plan.</p>
             </div>
 
             <ImArrowRight className='workflowArrow'/>
 
             <div className="workflowCard">
-
+                <h1>3</h1>
+                <h3>Take Action with Clarity</h3>
+                <p>Your dashboard shows exactly what to do next, with smart reminders and progress tracking baked in.</p>
             </div>
         </div>
     </div>

@@ -1,7 +1,7 @@
 .howitworks{
     width: 100%;
     height: 100vh;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,7 +10,7 @@
 
 .howitworksHead{
     width: 100%;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     height: 30%;
     display: flex;
     flex-direction: column;
@@ -29,15 +29,16 @@
 .workflow{
     width: 90%;
     height: 60%;
-    order: 1px solid white;
+    gap: 32px;
+    /* border: 1px solid white; */
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .workflowCard{
     width: 30%;
     height: 100%;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     display: flex;
     flex-direction: column;
     gap: 7px;
@@ -49,6 +50,22 @@
 .workflowArrow {
   fill: black;
   stroke: white;
-  stroke-width: 4px;
+  stroke-width: 1px;
+  font-size: 66px;
 }
 
+.workflowCard h1{
+    background-image: linear-gradient(to bottom, rgba(244, 236, 250, 1), rgba(96, 45, 130, 1));
+    background-size: 200% auto;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 100px;
+}
+.workflowCard h3{
+    color: rgba(213, 213, 213, 1);
+    font-size: 32px;
+}
+.workflowCard p{
+    color: rgba(213, 213, 213, 1);
+    font-size: 18px;
+}

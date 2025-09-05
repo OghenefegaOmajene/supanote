@@ -1,15 +1,17 @@
 .bentoGrid{
     width: 100%;
-    height: 300vh;
+    height: 230vh;
     /* border: 1px solid white; */
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 .bentoTxtBox{
     width: 70%;
-    height: 300px;
+    height: 200px;
     display: flex;
+    /* background-color: bisque; */
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -26,13 +28,13 @@
 
 .bento {
     width: 90%;
-    height: 60%;
+    height: 70%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 20px;
-    background-color: transparent;
+    /* background-color: red; */
 }
 
 #bentoCard{
@@ -98,13 +100,13 @@ border-radius: 12px;
     border-radius: 12px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 .bento3Txt{
     color: rgba(255, 255, 255, 1);
     width: fit-content;
-    height: 35%;
+    height: 100px;
     display: flex;
     /* background-color: aqua; */
     flex-direction: column;
@@ -113,7 +115,8 @@ border-radius: 12px;
 }
 .bento3 img{
     width: 450px;
-    height: 70%;
+    height: 80%;
+    /* border: 1px solid white; */
 }
 
 
@@ -126,31 +129,33 @@ border-radius: 12px;
     border: 1px solid rgb(255, 255, 255, 0.2);
 }
 .bento4, .bento5 { 
-    background-color: rgb(127, 255, 146);
+    /* background-color: rgb(127, 255, 146); */
     display: flex;
     flex-direction: column;
     border-radius: 12px;
     gap: 10px;
     align-items: center;
-    text-align: center;
+    text-align: start;
     justify-content: center;
 }
 .bento4 p, .bento5 p{
     color: rgba(255, 255, 255, 1);
+    padding-left: 30px;
+    padding-right: 20px;
 }
 .bento4Txt1{
     font-size: 32px;
     color: rgba(255, 255, 255, 1);
 }
 .bento4Txt2{
-    font-size: 15px;
+    font-size: 14px;
     color: rgba(255, 255, 255, 1);
 }
 .bento4 img{
-    width: 124px;
-    height: 110px;
+    width: 104px;
+    height: 90px;
 } 
 .bento5 img{
-    width: 130px;
-    height: 137px;
+    width: 90px;
+    height: 90px;
 }
